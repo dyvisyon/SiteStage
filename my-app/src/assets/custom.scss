@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed'); $font-family-sans-serif: 'Encode Sans Condensed', sans-serif;
+
+.dropdown:hover .dropdown-menu {display: block;};
+
+.tags {
+	.tag {
+		position: relative;
+		display: inline-block;
+		margin: 0 10px 10px 0;
+		padding: 0px 30px 0px 12px;
+		color: rgb(22, 22, 22);
+		background: rgb(255, 255, 255);
+		border: 1px solid #000000;
+		border-radius: 5px;
+		cursor: pointer;
+		&:after {
+			position: absolute;
+			right: 8px;
+			color: #b4252d;
+			content: '\00d7';
+		}
+	}
+}
+body{
+    background-color: rgb(59, 117, 117);
+  }
+  
+header, footer{
+    background-color: rgb(22, 22, 22);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
